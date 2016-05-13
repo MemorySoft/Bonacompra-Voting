@@ -1,0 +1,228 @@
+﻿/**
+ * BONACOMPRA VOTACIONES
+ * ---------------------
+ * Estilos para el sistema de votaciones del
+ * Club Bonacompra Menorca
+ *
+ * Autor: Hector Asencio @MemorySoft
+ * Versión: 1.2
+ */
+
+/*****************************************************
+  DEFAULTS
+*****************************************************/
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input, select, textarea {
+    max-width: 280px;
+}
+
+.field-validation-error {
+    color: #b94a48;
+}
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+.validation-summary-valid {
+    display: none;
+}
+
+/*****************************************************
+  CUSTOM
+*****************************************************/
+body {
+  padding-top: 0;
+  padding-bottom: 0px;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  line-height: 1em;
+  margin-top: 0;
+  font-weight: 400;
+}
+p, label, a {
+  font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+ul, ol {
+    line-height: 1.538em;
+    list-style: none;
+}
+input, select, textarea {
+  max-width: 100%;
+}
+img {
+	max-width: 100%;
+}
+
+.container {
+  width: 960px;
+}
+.row {
+padding: 60px 0 0 0;
+}
+
+.form-control {
+  height: 38px;
+  padding: 4px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.75);
+  border-radius: 0;
+}
+
+/* Navegación */
+.navbar {
+  margin: 0;
+}
+.navbar-inverse {
+  padding: .5em;
+  background-color: #c5d512;
+  border: none;
+}
+.secondary-navbar {
+  background: #333333;
+}
+
+.nav-sup li {
+  width: auto;
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0 0 0 10px;
+  border-left: 1px solid #333;
+  font-size: 15px;
+  font-weight: 600;
+}
+.nav-sup li:first-child {
+  padding: 0;
+  border-left: none;
+}
+
+.nav>li>a:not(.btn) {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+.navbar-nav>li>a:not(.btn) {
+  color: #fff;
+  padding: 22px 11px;
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration: none;
+}
+.nav>li>a:hover, 
+.nav>li>a:focus {
+  text-decoration: none;
+  background-color: #c5d512;
+  color: #333;
+}
+.navbar-inverse .navbar-nav>li>a.btn {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:not(.btn),
+.navbar-inverse .navbar-nav>li>a.btn:hover {
+  color: #333;
+}
+.navbar-inverse .navbar-nav>li>a.btn {
+  color: #fff;
+  padding: 10px 20px;
+}
+.navbar-inverse .navbar-nav>li>a:hover, 
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #999;
+  background-color: transparent;
+}
+
+/* Interfaz */
+.btn {
+  padding: 15px 40px;
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  border-radius: 0;
+}
+.btn-default {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+.btn-default:hover, 
+.btn-default:focus, 
+.btn-default:active, 
+.btn-default.active, 
+.open>.dropdown-toggle.btn-default {
+color: #333;
+background-color: #a9b70f;
+border-color: #333;
+}
+.btn-primary {
+  color: #333;
+  background-color: #c5d512;
+  border-color: #c5d512;
+}
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open>.dropdown-toggle.btn-primary {
+  color: #333;
+  background-color: #a9b70f;
+  border-color: #a9b70f;
+}
+
+/* Instrucciones para votar */
+ul.lista-numero {
+  margin: 2em 0 4em 0;
+  padding: 0;
+}
+ul.lista-numero li {
+  position: relative;
+}
+ul.lista-numero p {
+    font-size: 1.2em;
+    margin-left: 5em;
+}
+ul.destacada li, ol.destacada li {
+  margin: .7em 0;
+  border-bottom: 1px solid #ccc;
+}
+ul.destacada li:last-child, ol.destacada:last-child  {
+  border-bottom: none;
+}
+ul.lista-numero .item-numero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #C7D218;
+  padding: .5em;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+
+

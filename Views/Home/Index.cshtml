@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Bonacompra | Votaciones";
+}
+
+<div class="showcase row">
+  <div class="col-sm-3">
+    <p><img src="http://bonacompra.net/Media/Default/logos/compra_solidaria_480x342.png" alt="Tarjeta Club Bonacompra Menorca"></p>
+  </div>
+  <div class="col-sm-9">
+    <h1>Club Bonacompra Menorca <br> <small>Sistema de votaciones</small></h1>
+    <p>Cada vez que usas tu tarjeta Club Bonacompra Menorca, destinamos una parte de lo que se recauda a ayudar a aquellas entidades sin ánimo de lucro de Menorca que se dedican a mejorar la vida de las personas.</p>
+  </div>
+</div>
+<hr/>
+<div class="row">
+@if(!Request.IsAuthenticated) {
+  <div class="col-sm-12">
+    <h2>Instrucciones para votar</h2>
+    <p>Si tienes una tarjeta del Club Bonacompra Menorca puedes participar en las votaciones y apoyar al proyecto que más te guste de entre todos los que se presenten.</p>
+    <ul class="destacada lista-numero">
+      <li>
+        <span class="item-numero">1</span>
+        <p>Cuando empiezen las votaciones publicaremos los proyectos candidatos.<br>Lee atentamente cada proyecto en la sección <a href="http://bonacompra.net/Tags/Candidaturas" title="Ver los proyectos candidatos y de anteriores convocatorias" target="_self">CANDIDATURAS</a> y <strong>escoge el que deseas apoyar</strong>.</p>
+      </li>
+      <li>
+        <span class="item-numero">2</span>
+        <p>Selecciona el proyecto que quieres apoyar y <strong>haz clic sobre el botón 'VOTA ESTE PROYECTO'</strong>.<br>Se abrirá la página de votaciones donde se te pedirán tus datos para validar tu voto.</p>
+      </li>
+      <li>
+        <span class="item-numero">3</span>
+        <p>Introduce tus datos en el formulario de validación.<br>Necesitarás <strong>tu número de tarjeta y las tres últimas cifras de tu DNI seguidas de su letra</strong>.</p>
+      </li>
+      <li>
+        <p>
+          <strong>¡HAS ACABADO!<br></strong>
+          El proceso de votación habrá finalizado y tu voto quedará registrado en nuestra base de datos.
+        </p>
+      </li>
+    </ul>
+    <p>Si aún no tienes tu tarjeta, <a href="http://bonacompra.net/tarjeta-club-bonacompra#mapa">consíguela gratis</a> en cualquiera de nuestros establecimientos.</p>
+    <p>
+      <a class="btn btn-primary" href="http://bonacompra.net/Tags/Candidaturas">PROYECTOS CANDIDATOS</a>
+      <a class="btn btn-primary" href="http://bonacompra.net">IR A LA PÁGINA PRINCIPAL DE BONACOMPRA</a>
+    </p>
+  </div>
+} 
+</div>
